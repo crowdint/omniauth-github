@@ -2,16 +2,16 @@
 require File.expand_path('../lib/omniauth-github/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Michael Bleigh"]
-  gem.email         = ["michael@intridea.com"]
-  gem.description   = %q{Official OmniAuth strategy for GitHub.}
-  gem.summary       = %q{Official OmniAuth strategy for GitHub.}
-  gem.homepage      = "https://github.com/intridea/omniauth-github"
+  gem.authors       = ["Michael Bleigh", 'Ian Goodrich', 'Crowd Interactive']
+  gem.email         = ["michael@intridea.com", 'opensource@crowdint.com']
+  gem.description   = %q{Fixes scope: nil >> Official GitHub strategy for OmniAuth.}
+  gem.summary       = %q{Fixes scope: nil >> Official GitHub strategy for OmniAuth .}
+  gem.homepage      = "https://github.com/crowdint/omniauth-github"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  gem.name          = "omniauth-github"
+  gem.name          = "crowdint_omniauth-github"
   gem.require_paths = ["lib"]
   gem.version       = OmniAuth::GitHub::VERSION
 
