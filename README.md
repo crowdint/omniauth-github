@@ -1,3 +1,12 @@
+# Temporary repository!
+
+This only fixes the bug when the scope is nil or :public as reported in:
+<https://github.com/intridea/omniauth-github/pull/13>
+
+The only purpose of this repository is to create a temporary gem:
+<http://rubygems.org/gems/crowdint_omniauth-github>
+
+
 # OmniAuth GitHub
 
 This is the official OmniAuth strategy for authenticating to GitHub. To
